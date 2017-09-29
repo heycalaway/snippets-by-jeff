@@ -1,0 +1,96 @@
+'.source.php':
+
+	##░░░░░░░░░░░░░░░░░░░░░░░░░░░
+	##
+	##    DIRECTORY
+	##
+	##    _Fields
+	##      ∟GetField
+	##      ∟GetSubField
+	##      ∟GetFieldOption
+	##      ∟GetFieldTaxonomy
+	##    _Loops
+	##      ∟Repeater
+	##      ∟Flex
+	##
+	##░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+	##≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+	## _Fields
+	##≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+	## ∟GetField
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+
+	'Get Field':
+		'prefix': 'gf'
+		'body': 'get_field( \'$1\' )$2'
+	'The Field':
+		'prefix': 'tf'
+		'body': 'the_field( \'$1\' );$2'
+
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+	## ∟GetSubField
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+
+	'Get Sub Field':
+		'prefix': 'gsf'
+		'body': 'get_sub_field( \'$1\' )$2'
+	'The Sub Field':
+		'prefix': 'tsf'
+		'body': 'the_sub_field( \'$1\' );$2'
+
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+	## ∟GetFieldOption
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+
+	'Get Field Option':
+		'prefix': 'gfo'
+		'body': 'get_field( \'$1\', \'${2:option}\' )$3'
+	'The Field Option':
+		'prefix': 'tfo'
+		'body': 'the_field( \'$1\', \'${2:option}\' );$3'
+
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+	## ∟GetFieldTaxonomy
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+
+	'Get Field Taxonomy':
+		'prefix': 'gft'
+		'body': 'get_field( \'$1\', \'${2:taxonomy_slug}_\'.${3:term_id} )$4'
+	'The Field Taxonomy':
+		'prefix': 'tft'
+		'body': 'the_field( \'$1\', \'${2:taxonomy_slug}_\'.${3:term_id} );$4'
+
+
+	##≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+	## _Loops
+	##≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+	## ∟Repeater
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+
+	'Repeater Loop':
+		'prefix': 'repeater'
+		'body': """
+			if( have_rows( '${1:repeater_name}' ) ){
+				while ( have_rows( '${1:repeater_name}' ) ) : the_row();{
+					$2
+				}
+			}$3
+		"""
+
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+	## ∟Flex
+	##∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴∵∴
+
+	'Dynamic Flex Layouts':
+	  'prefix': 'flex'
+	  'body': """
+			if( have_rows( '${1:page_builder}' ) ) {
+				while ( have_rows( '${1:page_builder}' ) ) { the_row();
+					$layout = str_replace("_", "-", get_row_layout());
+					get_template_part('parts/${2:page-builder}/'.$layout);
+				}
+			}$3
+		"""

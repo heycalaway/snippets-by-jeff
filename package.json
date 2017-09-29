@@ -1,0 +1,13 @@
+{
+  "name": "snippets-by-jeff",
+  "version": "0.0.0",
+  "description": "Personal snippets most often used by Jeff and generally for Jeff",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "https://github.com/jmcalaway/snippets-by-jeff.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
