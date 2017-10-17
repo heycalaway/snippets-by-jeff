@@ -55,7 +55,7 @@
 		'body': """
 			\$args = array(
 				'post_type'      => '${1:Post_Type}',
-				'posts_per_page' => '${2:-1}',
+				'posts_per_page' => ${2:-1},
 				'order'          => 'ASC',
 			);
 
