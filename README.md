@@ -1,13 +1,5 @@
 ## Summary
-Alright, alright, PeterJohn. **Snippets by Jeff** is not entirely a collection of snippets by Jeff. But they are *for* Jeff, so bugger off!
-
-Okay, okay.
-
-Come back.
-
-No, for real, come back!
-
-You can stayyy. And you *can* use these snippets. Even though they're *for* Jeff. Not entirely *by* Jeff. See instructions below.
+**Snippets by Jeff** is a curated collection of snippets originally intended for working with PHP, CSS and JavaScript.
 
 ---
 
